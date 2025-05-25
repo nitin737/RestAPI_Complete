@@ -13,4 +13,8 @@ public class AppProperties {
     public String getTokenSecret() {
         return env.getProperty("tokenSecret");
     }
+
+    public String getGnewsApiKey() {
+        return env.getProperty("gnews.api.key");
+    }
 }
